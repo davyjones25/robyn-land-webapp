@@ -81,4 +81,3 @@ end
 gem "react-rails", "= 2.6"
 
 gem 'bootstrap', '~> 5.2.2'
-gem "sassc-rails"
