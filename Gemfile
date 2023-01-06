@@ -84,3 +84,4 @@ gem 'bootstrap', '~> 5.2.2'
 gem 'jquery-rails'
 gem 'popper_js', '~> 2.9'
 gem "stimulus_reflex", "~> 3.4"
+gem 'webpacker'

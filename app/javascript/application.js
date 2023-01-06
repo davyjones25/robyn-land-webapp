@@ -6,4 +6,6 @@ window.Stimulus = Application.start()
 const context = require.context("./controllers", true, /\.js$/)
 Stimulus.load(definitionsFromContext(context))
 
-import "./controllers"
+import "./controllers";
+import "bootstrap";
+import "@fortawesome/fontawesome-free/js/all";
