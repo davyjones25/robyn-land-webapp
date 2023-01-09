@@ -19,6 +19,11 @@
   "plugins": [
     "syntax-dynamic-import",
     "transform-object-rest-spread",
-    ["transform-class-properties", { "spec": true }]
+    ["transform-class-properties", { "spec": true }],
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-proposal-decorators",
+
+    "@babel/plugin-proposal-private-methods",
+    "@babel/plugin-transform-runtime"
   ]
 }
