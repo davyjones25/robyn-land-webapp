@@ -78,7 +78,7 @@ group :test do
   gem "webdrivers"
 end
 
-gem "react-rails", "= 2.6"
+gem 'react-rails', '~> 2.6', '>= 2.6.1'
 
 gem 'bootstrap', '~> 5.2.2'
 gem 'jquery-rails'

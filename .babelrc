@@ -1,13 +1,19 @@
 {
   "presets": [
-    ["env", {
-      "modules": false,
-      "targets": {
-        "browsers": "> 1%",
-        "uglify": true
-      },
-      "useBuiltIns": true
-    }]
+    [
+      "env", {
+        "modules": false,
+        "targets": {
+          "browsers": "> 1%",
+          "uglify": true,
+          "esmodules": true
+        },
+        "useBuiltIns": true
+      }, 
+      "es2015",
+      "@babel/preset-react",
+      "@babel/preset-env"
+    ]
   ],
 
   "plugins": [

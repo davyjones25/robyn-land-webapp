@@ -206,7 +206,7 @@ GEM
       thor (~> 1.0)
       zeitwerk (~> 2.5)
     rake (13.0.6)
-    react-rails (2.6.0)
+    react-rails (2.6.2)
       babel-transpiler (>= 0.7.0)
       connection_pool
       execjs
@@ -214,7 +214,7 @@ GEM
       tilt
     redis (5.0.5)
       redis-client (>= 0.9.0)
-    redis-client (0.11.2)
+    redis-client (0.12.0)
       connection_pool
     regexp_parser (2.6.1)
     reline (0.3.2)
@@ -305,7 +305,7 @@ DEPENDENCIES
   popper_js (~> 2.9)
   puma (~> 5.0)
   rails (~> 7.0.4)
-  react-rails (= 2.6)
+  react-rails (~> 2.6, >= 2.6.1)
   sassc-rails
   selenium-webdriver
   simple_form!
