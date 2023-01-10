@@ -10,5 +10,8 @@ application.register("hello", HelloController)
 import NavbarController from "./navbar_controller"
 application.register("navbar", NavbarController)
 
+import ReactController from "./react_controller"
+application.register("react", ReactController)
+
 import TypedJsController from "./typed_js_controller"
 application.register("typed-js", TypedJsController)
