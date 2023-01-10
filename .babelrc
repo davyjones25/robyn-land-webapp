@@ -1,29 +1,8 @@
 {
   "presets": [
-    [
-      "env", {
-        "modules": false,
-        "targets": {
-          "browsers": "> 1%",
-          "uglify": true,
-          "esmodules": true
-        },
-        "useBuiltIns": true
-      }, 
-      "es2015",
-      "@babel/preset-react",
-      "@babel/preset-env"
-    ]
-  ],
-
-  "plugins": [
-    "syntax-dynamic-import",
-    "transform-object-rest-spread",
-    ["transform-class-properties", { "spec": true }],
-    "@babel/plugin-proposal-class-properties",
-    "@babel/plugin-proposal-decorators",
-
-    "@babel/plugin-proposal-private-methods",
-    "@babel/plugin-transform-runtime"
+    "@babel/preset-env",
+    ["@babel/preset-react", {
+    "runtime": "automatic"
+  }]
   ]
 }
