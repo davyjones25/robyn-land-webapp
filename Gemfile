@@ -80,8 +80,8 @@ end
 
 # gem 'react-rails', '~> 2.6', '>= 2.6.1'
 
-gem 'bootstrap', '~> 5.2.2'
-gem 'jquery-rails'
+  gem 'bootstrap', '~> 5.2.2'
+# gem 'jquery-rails'
 # gem 'popper_js', '~> 2.9'
 # gem "stimulus_reflex", "~> 3.4"
 # gem 'webpacker'
