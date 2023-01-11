@@ -6,7 +6,7 @@ import App from "../components/App";
 // Connects to data-controller="react"
 export default class extends Controller {
   connect() {
-    const app = document.getElementById("app");
+    const app = document.getElementById("root");
     createRoot(app).render(<App />);
   }
 }

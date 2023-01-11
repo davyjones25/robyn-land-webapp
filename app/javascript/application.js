@@ -8,3 +8,4 @@ require("./controllers")
 
 import "bootstrap";
 import "@fortawesome/fontawesome-free/js/all";
+
